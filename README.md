@@ -11,17 +11,17 @@ Correct classification is important for applications such as naval safety and un
 
 **Dataset**
 
-The dataset consists of numerical features extracted from sonar signals.  
-Each row represents a sonar signal bounced off an object.
-The target variable contains:  
+-The dataset consists of numerical features extracted from sonar signals.  
+-Each row represents a sonar signal bounced off an object.
+-The target variable contains:  
 R → Rock  
 M → Mine  
 
 **Approach**
 
-Loaded and explored the dataset.   
-Converted categorical labels into numerical values.  
-Split the data into training and testing sets.   
+-Loaded and explored the dataset.   
+-Converted categorical labels into numerical values.  
+-Split the data into training and testing sets.   
 Trained a Logistic Regression model.  
 Evaluated the model using accuracy score.  
 ***Why Logistic Regression?***
